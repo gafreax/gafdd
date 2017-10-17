@@ -3,7 +3,7 @@
     "description": "Simple library for debugging purpose",
     "type": "library",
 	"minimum-stability":"dev",
-	"version":"1.0.0",
+	"version":"1.0.1",
     "require": {
     	"php": ">=5.3.3"
     },
@@ -16,7 +16,7 @@
     ],
     "autoload": {
     	"psr-4": {
-    		"sba\\": "src/gafreax"
+    		"gafreax\\": "src/gafreax"
     	}
     }
 }
