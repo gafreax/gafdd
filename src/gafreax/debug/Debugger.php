@@ -14,7 +14,7 @@ class Debugger
      */
 	public static function d($param,$internally = false)
 	{
-		echo '<br><br><hr><pre><h1>';
+		echo '<br><hr><br><pre style="display:block;padding-top:20px;padding-bottom:20px"><h1>';
 		$level = $internally? 2 : 1 ;
 		echo debug_backtrace()[$level]['function'];
 		echo '</h1>';
@@ -22,6 +22,7 @@ class Debugger
 			print_r($param);
 		else 
 			var_dump($param);
+		echo '</pre><br>';
 	}
 
 	/** 
