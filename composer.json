@@ -2,8 +2,8 @@
     "name": "gafreax/debug",
     "description": "Simple library for debugging purpose",
     "type": "library",
-	"minimum-stability":"dev-master",
-	"version":"1.0.3",
+	"minimum-stability":"dev",
+	"version":"1.0.4",
     "require": {
     	"php": ">=5.3.3"
     },
