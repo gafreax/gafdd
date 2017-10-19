@@ -3,7 +3,7 @@
     "description": "Simple library for debugging purpose",
     "type": "library",
 	"minimum-stability":"dev",
-	"version":"1.0.2",
+	"version":"1.0.3",
     "require": {
     	"php": ">=5.3.3"
     },
